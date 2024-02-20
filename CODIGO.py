@@ -60,7 +60,6 @@ def button(update, context):
             response = "LISTA DE USUÁRIOS:\n"
             cont = 1
             for usuario in usuarios:
-                print("-" * 10)
                 response += f"{cont} - 👥NOME: {usuario[0]}, 👁IDADE: {usuario[1]}\n"
                 cont += 1
             query.message.reply_text(response)
