@@ -21,44 +21,9 @@ Este bot do Telegram oferece uma variedade de recursos para gerenciar uma lista 
 
 7. **Operações CRUD**: Este bot segue o paradigma CRUD (Create, Read, Update, Delete), permitindo que as pessoas realizem todas as operações básicas de manipulação de dados em uma lista de usuários diretamente do Telegram.
 
-## COMO USAR?
-### BAIXANDO O PROJETO:
-**Passo 1:** Clone o repositório para o seu sistema local.
-
-```bash
-git clone https://github.com/VILHALVA/CRUD-TELEBOT-EM-MYSQL.git
-```
-
-**Passo 2:** Navegue até o diretório do projeto.
-
-```bash
-cd CRUD-TELEBOT-EM-MYSQL
-```
-
-**Passo 3:** Descompacte o arquivo ZIP (se você baixou manualmente):
-
-```bash
-unzip CRUD-TELEBOT-EM-MYSQL.zip
-```
-
-### EXECUTANDO O PROJETO:
+## EXECUTANDO O PROJETO:
 1. **Configuração do Banco de Dados:**
-
-   - Crie um banco de dados MySQL chamado `cadastro`:
-   ```sql
-   CREATE DATABASE CADASTRO;
-   ```
-   - Execute o seguinte comando SQL para criar a tabela `usuarios`:
-
-     ```sql
-     USE CADASTRO;
-     CREATE TABLE usuarios (
-         id INT AUTO_INCREMENT PRIMARY KEY,
-         nome VARCHAR(255) NOT NULL,
-         idade INT NOT NULL
-      );
-     ```
-   - Se você não estiver familiarizado com esses passos, confira nosso [curso completo de MYSQL](https://github.com/VILHALVA/CURSO-DE-MYSQL) para obter orientações detalhadas.
+   - Antes de executar o bot, é necessário importar o arquivo `DATABASE.sql`. Se não estiver familiarizado com o processo de importação, [confira este curso](https://github.com/VILHALVA/CURSO-DE-MYSQL) para orientações detalhadas.
 
 2. **Editar o código:**
    - Certifique-se de substituir "localhost", "seu_usuario", "sua_senha" e "sua_base_de_dados" pelas informações corretas do seu banco de dados MySQL.
@@ -73,6 +38,7 @@ unzip CRUD-TELEBOT-EM-MYSQL.zip
 ```
    - Inicie o bot enviando o comando `/start`. Receba uma mensagem de boas-vindas e clique no botão inline.
 
-## CREDITOS:
+## SAIBA MAIS:
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
+- [FAÇA OS NOSSOS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
 
