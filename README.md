@@ -1,4 +1,4 @@
-# CRUD TELEBOT EM MYSQL
+# CRUD TELEGRAM EM MYSQL
 🤤ESSE É UM BOT DO TELEGRAM DE CRUD EM MYSQL!
 
 <img src="./IMAGENS/FOTO_1.png" align="center" width="400"> <br>
@@ -45,8 +45,15 @@ Este bot do Telegram oferece uma variedade de recursos para gerenciar uma lista 
 
    - Inicie o bot enviando o comando `/start`. Receba uma mensagem de boas-vindas e clique no botão inline.
 
-## SAIBA MAIS:
+## NÃO SABE?
+- Entendemos que para manipular arquivos em muitas linguagens e tecnologias relacionadas, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos alguns subsidios:
+* [VEJA A DOCUMENTAÇÃO](https://python-telegram-bot.org/)
+* [CURSO DE PYTHON](https://github.com/VILHALVA/CURSO-DE-PYTHON)
+* [CURSO DE MYSQL](https://github.com/VILHALVA/CURSO-DE-MYSQL)
+* [CURSO SUGERIDO](https://github.com/VILHALVA/CURSO-DE-TELEBOT)
+* [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
+
+## CREDITOS:
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
-- [CURSO DE TELEBOT](https://github.com/VILHALVA/CURSO-DE-TELEBOT)
-- [CURSO DE MYSQL](https://github.com/VILHALVA/CURSO-DE-MYSQL)
+
 
