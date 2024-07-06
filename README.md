@@ -23,19 +23,26 @@ Este bot do Telegram oferece uma variedade de recursos para gerenciar uma lista 
 
 ## EXECUTANDO O PROJETO:
 1. **Configuração do Banco de Dados:**
-   - Antes de executar o bot, é necessário importar o arquivo `DATABASE.sql`.
+   - Antes de executar o bot, é necessário importar o arquivo `./CODIGO/DATABASE.sql`.
 
 2. **Editar o código:**
    - Certifique-se de substituir "localhost", "seu_usuario", "sua_senha" e "sua_base_de_dados" pelas informações corretas do seu banco de dados MySQL.
 
-3. **Coloque o Token:**
+3. **Instalando as dependências:**
+   - Antes de executar o bot, certifique-se de instalar todas as dependências necessárias. No terminal, execute o seguinte comando para instalar as dependências listadas no arquivo `requirements.txt` em `CODIGO`:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Coloque o Token:**
    - Antes de executar o programa, é necessário substituir o token do seu bot, o qual pode ser obtido por meio do [@BotFather](https://t.me/BotFather). Certifique-se também de que todas as dependências estejam instaladas em sua máquina. 
 
-4. **Inicie o Bot:**
-   - Execute o bot do Telegram em Python iniciando-o com o seguinte comando:
-```bash
+5. **Inicie o Bot:**
+   - Execute o bot do Telegram em Python iniciando-o com o seguinte comando em `CODIGO`:
+   ```bash
    python CODIGO.py
-```
+   ```
+
    - Inicie o bot enviando o comando `/start`. Receba uma mensagem de boas-vindas e clique no botão inline.
 
 ## SAIBA MAIS:

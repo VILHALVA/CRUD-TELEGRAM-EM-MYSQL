@@ -1,0 +1,4 @@
+pytelegrambotapi
+telebot
+mysql-connector-python
+telegram
