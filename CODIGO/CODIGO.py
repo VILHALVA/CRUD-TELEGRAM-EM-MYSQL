@@ -120,7 +120,7 @@ def message(update, context):
         update.message.reply_text('Por favor, inicie o bot usando /start.')
 
 def main():
-    TOKEN = 'SEU_TOKEN'  # Substitua pelo token do seu bot
+    from TOKEN import TOKEN
 
     updater = Updater(TOKEN, use_context=True)
     dispatcher = updater.dispatcher
