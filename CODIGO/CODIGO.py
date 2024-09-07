@@ -1,14 +1,24 @@
 import mysql.connector
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, MessageHandler, Filters
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+DB_HOST = os.getenv('DB_HOST')
+DB_USER = os.getenv('DB_USER')
+DB_PASSWORD = os.getenv('DB_PASSWORD')
+DB_NAME = os.getenv('DB_NAME')
 
 class GerenciadorUsuarios:
     def __init__(self):
         self.conexao = mysql.connector.connect(
-            host="localhost",
-            user="seu_usuario",
-            password="sua_senha",
-            database="cadastro"
+            host=DB_HOST,
+            user=DB_USER,
+            password=DB_PASSWORD,
+            database=DB_NAME
         )
         self.cursor = self.conexao.cursor()
 
@@ -120,9 +130,7 @@ def message(update, context):
         update.message.reply_text('Por favor, inicie o bot usando /start.')
 
 def main():
-    from TOKEN import TOKEN
-
-    updater = Updater(TOKEN, use_context=True)
+    updater = Updater(TELEGRAM_TOKEN, use_context=True)
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(CommandHandler('start', start))
